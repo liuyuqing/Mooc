@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>My Mooc</title>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/course.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/normal.css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312"> 
+        <script src="/js/normal.js"></script>
+	</head>
+<body>
+		<div id="topbar">
+			<img class="logo" src="/img/logo.png" height="30"/>
+         <a href="/index.htm" class="text">Main Page</a>
+         <a href="#" class="text">Course</a> 
+			<a href="#" class="text">Forum</a>  
+			<a href="#" class="text">Programming</a>  
+			<a href="#" class="text">Settings</a>
+			<input type="text" name="searchtext" id="searchtext" value="PHP" />
+			<button id="search_submit">search</button>
+			<logininfo>		
+			<a href="javascript:logininfo()" class="login">login</a>
+			<pp style="color: #FFF;">/</pp>
+			<a href="" class="login">register</a>
+			</logininfo>
+		</div>
+       <div id="loginpage" align="center">
+        <div id="loginwindow">
+        <table>
+        	<td align="left">
+        	<form method="post" name="login_report" action="#">
+            <div>
+        	<label><h1>Login</h1></label>
+            <label>Username:</label><br><input name="username" type="text"></div>
+            <div>
+            <label>Password:</label><br><input name="password" type="password"></div>
+            <div>
+            <label>Remenber me?:</label><input name="rememberme" type="checkbox"></div>
+            <input type="submit" value="login">
+            <button onClick="closelogin()">cancel</button>
+            </form>
+            </td>
+        </table>
+        </div>
+        </div>
+<div id="main" style="margin: 50px;">
+	<table class="classlist">
+		<th colspan="4">
+		<span class="subtitle" style="float: left;font-size: 45px;">Class List</span>
+		</th>
+		<tr>
+		<td width="20px">No.</td><td width="200px">Curse Name</td><td width="200px">Teacher</td><td>Start Date</td>
+		</tr>
+		<tr>
+		<td>1</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>2</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>3</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>4</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>5</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>6</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>7</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>8</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>9</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>10</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>11</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>12</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>13</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>14</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		<tr>
+		<td>15</td><td> C++ Prime</td><td>John Smith</td><td>2015/1/1</td>
+		</tr>
+		</tr>
+		<th colspan="4">
+		<a href="#">Last Page<=</a>
+		<a href="#">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		<a>6</a>
+		<a href="#">7</a>
+		<a href="#">8</a>
+		<a href="#">9</a>
+		<a href="#">10</a>
+		<a href="#">11</a>
+		<a href="#">Next Page=></a>
+		</th>
+	</table>
+</div>
+</body>
+</html>

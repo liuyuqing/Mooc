@@ -1,0 +1,12 @@
+/* CSS Document */
+
+#register_report{
+	
+}
+#register_report div{
+	width:300px;
+}
+#register_report label{
+	text-align:right;
+	float:left;
+}
